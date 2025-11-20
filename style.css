@@ -32,3 +32,16 @@ a {
 a:hover {
     font-style: italic;
 }
+
+.image_hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.image_hover:not(:hover) {
+    transition: transform 0.3s;
+}
+
+.big_text {
+    font-size: 20px;
+    font-weight: bold;
+}
